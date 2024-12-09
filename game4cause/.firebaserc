@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "game4cause",
+    "live": "game4cause"
+  },
+  "targets": {},
+  "etags": {}
+}

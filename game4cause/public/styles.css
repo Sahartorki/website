@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0; /* Light Gray */
+    color: #333; /* Dark text for good contrast */
+}
+
+h1, h2 {
+    color: #A7C7E7; /* Pastel Blue for headings */
+}
+
+p {
+    color: #333; /* Dark text for readability */
+}
+
+/* Header Styles */
+header {
+    background-color: #FF9A8B; /* Soft Coral */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #FFF29F; /* Light Yellow */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #A8E6CF; /* Mint Green for the secondary heading */
+}
+
+.game-options {
+    margin-top: 40px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #A7C7E7; /* Pastel Blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
