@@ -3,33 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dongame - Simple Kids Games</title>
+    <title>Game4Cause - Simple Kids Games</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Dongame!</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Games</a>
-            <a href="#">Donate</a>
-        </nav>
+        <h1>Welcome To Game4Cause!</h1>
+        <p>Where you can play games and donate for a good cause😊</p>
+        <section class="cta-boxes">
+            <div class="cta-box" id="games">
+                <a href="#">Games</a>
+            </div>
+            <div class="cta-box" id="donate">
+                <a href="#">Donate</a>
+            </div>
+        </section>
     </header>
 
-    <main>
-        <section class="intro">
-            <h2>Play Fun Games and Help Kids!</h2>
-            <p>Join us to enjoy simple games while donating to kids' charities.</p>
-        </section>
+    <!-- Nostalgic Game Section -->
+    <section class="nostalgic-bg">
+        <h2>Play a Little Game To Warm Up!</h2>
+        <canvas id="dino-game" width="600" height="150"></canvas>
+    </section>
 
-        <section class="game-options">
-            <h2>Choose a Game to Play</h2>
-            <!-- Game options will go here -->
-        </section>
+    <main>
+        <!-- Main content can go here -->
     </main>
 
+    <!-- Link to your external JavaScript file for the game -->
+    <script src="dino-game.js"></script>
+
     <footer>
-        <p>&copy; 2024 Dongame. All rights reserved.</p>
+        <p>&copy; 2024 game4cause. All rights reserved.</p>
     </footer>
 </body>
 </html>

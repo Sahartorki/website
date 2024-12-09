@@ -1,23 +1,46 @@
 /* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F0F0F0; /* Light Gray */
-    color: #333; /* Dark text for good contrast */
+.cta-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-h1, h2 {
-    color: #A7C7E7; /* Pastel Blue for headings */
+
+.cta-box {
+    background-color: #FF9A8B; /* Soft Coral */
+    padding: 20px;
+    border: 3px solid #A7C7E7; /* Pastel Blue border */
+    border-radius: 12px;
+    font-family: 'Cursive', sans-serif;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
 
-p {
-    color: #333; /* Dark text for readability */
+.cta-box:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+.cta-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Specific styles for each box (Games and Donate) */
+#games {
+    background-color: #FF9A8B;
+}
+
+#donate {
+    background-color: #FF9A8B;
+}
+
 
 /* Header Styles */
 header {
-    background-color: #FF9A8B; /* Soft Coral */
+    background-color: #A7C7E7; /* Soft Coral */
     padding: 20px;
     text-align: center;
 }
@@ -25,7 +48,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 36px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav a {
@@ -65,4 +88,38 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+/* Add this to your existing CSS */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #A7C7E7; /* Pastel Blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.nostalgic-bg {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #F0F0F0;
+}
+
+#dino-game {
+    border: 3px dashed #A7C7E7;
+    margin-top: 20px;
 }
